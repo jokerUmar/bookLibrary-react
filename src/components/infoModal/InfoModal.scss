@@ -1,0 +1,95 @@
+.overlay {
+    position: absolute;
+    margin-left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 388vh;
+    top: 0;
+    left: 0;
+}
+
+.overlay-none {
+    display: none;
+}
+
+.modal {
+    position: absolute;
+    right: 0;
+    background-color: white;
+    width: 522.47px;
+}
+
+.modal-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(248, 250, 253, 1);
+    padding: 22px 31px 22px 33px;
+}
+
+.modal__xmark {
+    color: rgba(88, 102, 126, 1);
+    font-size: 20px;
+}
+
+.modal-body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 47px;
+    padding-right: 36px;
+}
+
+.modal-book__img {
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 51px;
+    margin-top: 44px;
+}
+
+.modal__text {
+    margin-bottom: 27.6px;
+    font-size: 13px;
+    color: rgba(88, 102, 126, 1);
+    line-height: 22.14px;
+}
+
+.modal-data {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    margin-bottom: 17px;
+}
+
+.modal-data span {
+    font-size: 14px;
+    color: rgba(34, 37, 49, 1);
+}
+
+.modal-data p {
+    background-color: rgba(13, 117, 255, 0.09);
+    color: rgba(13, 117, 255, 1);
+    padding: 5px 19px 5px 19px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.modal-footer {
+    background-color: rgba(248, 250, 253, 1);
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+    padding-top: 14px;
+    padding-bottom: 16px;
+}
+
+.modal-footer a {
+    text-decoration: none;
+    font-size: 16px;
+    padding: 9px 38px;
+    background: #75828A;
+    border-radius: 4px;
+    color: white;
+    border: none;
+}

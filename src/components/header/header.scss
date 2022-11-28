@@ -1,0 +1,52 @@
+header .container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 11px 13px ;
+}
+
+.header-input{
+    display: flex;
+    align-items: center;
+    background-color: rgba(227, 230, 235, 1);
+    border-radius: 30px;
+    padding-left: 16px;
+
+}
+
+.header-input img{
+    margin-right: 15px;
+}
+
+.header-input input{
+    background-color: rgba(227, 230, 235, 1);
+    outline: none;
+    border: none;
+    width: 500px;
+    border-radius: 30px;
+    height: 48px;
+}
+
+.header-input input::placeholder{
+    color: rgba(0, 0, 0, 0.24);
+}
+
+.header-btn{
+    display: flex;
+    width: 250px;
+    justify-content: space-around;
+    color: white;
+}
+
+.darkmode , .logout{
+    background-color: rgba(255, 206, 49, 1);
+    color: black;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 23px;
+}
+
+.logout{
+    color: white;
+    background-color: rgba(13, 117, 255, 1);
+}

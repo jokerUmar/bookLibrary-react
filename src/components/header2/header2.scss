@@ -1,0 +1,19 @@
+.header2 .container {
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.15);
+    margin-bottom: 10px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+
+.header2 .container button {
+    background: #A6B0C3;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    padding: 9px 13px;
+}
